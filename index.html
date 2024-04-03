@@ -1,0 +1,24 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt"> <!-- Declaração do idioma da página -->
+<head>
+    <meta charset="UTF-8"> <!-- Declaração do conjunto de caracteres da página -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Declaração da viewport da página -->
+    <title>Lista de Tarefas</title> <!-- Título da página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o arquivo CSS -->
+</head>
+<body>
+    <div class="container"> <!-- Container principal -->
+        <div class="todo-app"> <!-- Div para a aplicação de lista de tarefas -->
+            <h2> Lista de Tarefas <img src="img/icon.png" alt="O desenho de uma lista"></h2> <!-- Título da aplicação -->
+            <div class="row"> <!-- Div para a linha do input e botão -->
+                <input type="text" id="input-box" placeholder="Escreva sua tarefa"> <!-- Input para inserir tarefas -->
+                <button onclick="addTask()">Add</button> <!-- Botão para adicionar tarefas -->
+            </div>
+            <ul id="list-container">
+                <!-- Lista para exibir as tarefas -->
+            </ul> 
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Link para o arquivo JavaScript -->
+</body>
+</html>
